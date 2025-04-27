@@ -41,7 +41,7 @@ export async function getServerSideProps(context) {
     const { id } = context.query;
     let file;
     try {
-        const { data } = await axios.get(`http://localhost:8000/api/files/${id}`);
+        const { data } = await axios.get(`https://sharefilesy.vercel.app/api/files/${id}`);
         file = data;
     } catch (error) {
         console.log(error);
