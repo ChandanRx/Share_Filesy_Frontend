@@ -3,7 +3,7 @@ import React from 'react'
 const DownloadFile = ({ downloadPageLink }) => {
   return (
     <div className='p-4'>
-        <h1 className='my-2 text-lg font-medium text-white'>
+        <h1 className='my-2 text-lg font-medium text-black'>
             Great! File is uploaded. Share this link with your friend:
         </h1>
         <div className='flex space-x-3 items-center'>
@@ -11,7 +11,7 @@ const DownloadFile = ({ downloadPageLink }) => {
             <img 
                 src="/images/icons8-copy-48.png" 
                 alt="copy" 
-                className='w-8 h-8 object-contain cursor-pointer'
+                className='w-8 h-8 object-contain cursor-pointer bg-black'
                 onClick={() => navigator.clipboard.writeText(downloadPageLink)} 
             />
         </div>
