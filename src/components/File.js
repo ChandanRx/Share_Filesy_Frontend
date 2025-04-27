@@ -7,7 +7,7 @@ import api from "../utils/api";
 import DownloadFile from "./DownloadFile";
 import EmailForm from "./EmailForm";
 
-axios.defaults.baseURL = "http://localhost:8000/";
+axios.defaults.baseURL = "https://share-filesy-backend.vercel.app/";
 
 const File = () => {
   const [file, setFile] = useState(null);
