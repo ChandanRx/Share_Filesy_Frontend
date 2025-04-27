@@ -6,7 +6,7 @@ import filesDownload from 'js-file-download';
 const DownloadPage = ({ file: { format, sizeInBytes, id, name } }) => {
 
     const handleDownload = async () => { 
-        const { data } = await axios.get(`http://localhost:8000/api/files/${id}/download`, {
+        const { data } = await axios.get(`https://share-filesy-backend.onrender.com//api/files/${id}/download`, {
             responseType: "blob"
         });
 
