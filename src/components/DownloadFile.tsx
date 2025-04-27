@@ -1,0 +1,22 @@
+import React from 'react'
+
+const DownloadFile = ({ downloadPageLink }: any) => {
+  return (
+    <div className='p-4'>
+        <h1 className='my-2 text-lg font-medium text-white'>
+            Great! File is uploaded. Share this link with your friend:
+        </h1>
+        <div className='flex space-x-3 items-center'>
+            <span className='break-all text-[#2F4F4F]'>{downloadPageLink}</span>
+            <img 
+                src="/images/icons8-copy-48.png" 
+                alt="copy" 
+                className='w-8 h-8 object-contain cursor-pointer'
+                onClick={() => navigator.clipboard.writeText(downloadPageLink)} 
+            />
+        </div>
+    </div>
+  )
+}
+
+export default DownloadFile;
