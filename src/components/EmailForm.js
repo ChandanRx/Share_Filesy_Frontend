@@ -27,7 +27,7 @@ const EmailForm = ({ id }) => {
 
     return (
         <div className='flex flex-col items-center justify-center w-full p-2 space-y-3'>
-            <h3 className='text-white font-semibold text-xl'>
+            <h3 className='text-green font-semibold text-xl'>
                 You can also send the file through mail
             </h3>
             <form
