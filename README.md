@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📂 ShareFilesy
 
-## Getting Started
+**ShareFilesy** is a simple and fast file-sharing web app built with **Next.js** and deployed on **Vercel**.  
+Users can upload any file and instantly get a unique download link to share — no login required.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 📤 Upload files instantly
+- 🔗 Generate shareable download links
+- 🚫 No authentication required
+- 🚀 Fast and lightweight UI with **Next.js**
+- ☁️ Deployed on **Vercel** for global performance
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🧱 Tech Stack
 
-## Learn More
+| Frontend | Backend     | Hosting  |
+|----------|-------------|----------|
+| Next.js  | Node APIs   | Vercel   |
+| React    | File upload | Vercel Functions |
+| Tailwind CSS | —       | —        |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - before
+   ![screencapture-sharefilesy-vercel-app-2025-06-20-11_51_43](https://github.com/user-attachments/assets/dd4cac49-21f9-495a-a8f4-fac598e747bd)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - after uploaded
+   ![screencapture-sharefilesy-vercel-app-2025-06-20-11_52_21](https://github.com/user-attachments/assets/6e292566-847b-41e5-b7ec-fc3adb5d5287)
